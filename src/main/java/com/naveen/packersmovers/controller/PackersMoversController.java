@@ -31,7 +31,7 @@ public class PackersMoversController {
         
         @GetMapping("/ping")
         public String ping() {
-        	return "Merging from feature to main";
+        	return "Hi this is Naveen. My backend server is running without any errors";
         }
 
 
