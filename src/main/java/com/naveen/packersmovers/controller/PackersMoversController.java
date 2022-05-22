@@ -31,7 +31,7 @@ public class PackersMoversController {
         
         @GetMapping("/ping")
         public String ping() {
-        	return "Hi this is Naveen. My backend server is running without any errors";
+        	return "Hi this is Naveen. My backend server is up and running without any errors";
         }
 
 
