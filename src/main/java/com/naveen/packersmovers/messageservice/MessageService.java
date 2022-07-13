@@ -20,8 +20,8 @@ public class MessageService {
     public static final String AWS_SECRET_KEY = "aws.secretKey";
 
     static {
-        System.setProperty(AWS_ACCESS_KEY_ID, "AKIAZ662ZFDLW6G76ETM");
-        System.setProperty(AWS_SECRET_KEY, "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");
+        System.setProperty(AWS_ACCESS_KEY_ID, "AKIASEVWZI2J2KKZQT7Q");
+        System.setProperty(AWS_SECRET_KEY, "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");
 
     }
     
@@ -34,8 +34,8 @@ public class MessageService {
         				 "From:" + user.getfromAddress() + " " + "\n" +
         				 "To:" + user.gettoAddress() + " " + "\n" +
         				 "Est. Date" + user.getestDate() + " " + "\n" +
-        				 "Move Type:" + user.getmoveSize() + " " + "\n" +
-        				 "http://localhost:3000/customer/+91-"+user.getPhone()+"/driver-details";
+        				 "Move Type:" + user.getmoveSize() + " " + "\n" ;
+        				 
         
         
         myClient.sendCustomerDetails(message);
