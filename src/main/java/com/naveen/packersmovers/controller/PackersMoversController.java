@@ -32,11 +32,12 @@ public class PackersMoversController {
         @GetMapping("/ping")
         public String ping() {
 
-        	return "Specifications\r\n"
-        			+ "General\r\n"
-        			+ "In The Box\r\n"
-        			+ "Handset, Adapter (5V/2A), USB Cable, SIM Card Tool, Important Info Booklet with Warranty Card, Quick Guide\r\n"
-        			+ "Model Number\r\n";
+        	return "5\r\n"
+        			+ "Best in the market!\r\n"
+        			+ "\r\n"
+        			+ "Phone is just awesome everything is so good . Charger is also very good. "
+        			+ "Thanking flipkart for your services . "
+        			+ "It values for money ; camera is superb ; display is also good.";
         			
         }
 
