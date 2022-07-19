@@ -36,8 +36,8 @@ public class PackersMoversController {
         			+ "General\r\n"
         			+ "In The Box\r\n"
         			+ "Handset, Adapter (5V/2A), USB Cable, SIM Card Tool, Important Info Booklet with Warranty Card, Quick Guide\r\n"
-        			+ "Model Number\r\n"
-        			+ "1 Year waranty";
+        			+ "Model Number\r\n";
+        			
         }
 
 
