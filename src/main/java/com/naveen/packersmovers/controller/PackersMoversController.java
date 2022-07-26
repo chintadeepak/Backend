@@ -34,9 +34,6 @@ public class PackersMoversController {
 
         	return "5\r\n"
         			+ "Best in the market!\r\n"
-        			+ "\r\n"
-        			+ "Phone is just awesome everything is so good . Charger is also very good. "
-        			+ "Thanking flipkart for your services . "
         			+ "It values for money ; camera is superb ; display is also good.";
         			
         }
