@@ -30,11 +30,7 @@ public class PackersMoversController {
         
         
         @GetMapping("/ping")
-        public String ping() {
-
-        	return "5\r\n"
-        			+ "Best in the market!\r\n"
-        			+ "It values for money ; camera is superb ; display is also good.";
+        public String ping() { "Hi this is Naveen"
         			
         }
 
